@@ -1,0 +1,196 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: #f6f3e4;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+header img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin-bottom: 20px;
+    transform: translate(-10%, -17%);
+}
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+#head {
+    background-image: url(644555827_16.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    filter: brightness(70%);
+    text-align: center;
+    padding: 20px;
+    height: 500px;
+}
+.hero {
+    background: url('hero.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 50px 0;
+    text-align: right;
+    font-size: 1.2rem;
+}
+.hero-content {
+    float: right;
+    margin-top: 140px;
+}
+.hero h1 {
+    margin: 0;
+    font-size: 1em;
+}
+
+button {
+    padding: 10px 20px;
+    background: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid;
+    border-color: #e4a03e;
+}
+
+/* About section */
+.about {
+    padding: 40px;
+    text-align: center;
+    background: #fef8ec;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 30%;
+}
+
+/* Services */
+.services {
+    background: #bd996f;
+    padding: 40px;
+    text-align: center;
+}
+.services h2 {
+    font-size: 2rem;
+}
+.service-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.card {
+    background-color: #bd996f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card i {
+    color: white; /* Icon color */
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Team */
+.team {
+    text-align: center;
+    padding: 40px;
+    height: 380px;
+    background-color: #bd996f;
+    display: flex;
+    gap: 20px;
+}
+#text {
+    float: left;
+    text-align: left;
+}
+.team img {
+    width: 450px;
+    margin: 20px auto;
+    float: right;
+    border-radius: 12px;
+}
+#text button {
+    border: 3px white solid;
+}
+/* Promo */
+.promo {
+    background: #fef8ec;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Contact */
+.contact {
+    padding: 40px;
+    background: #e4a03e;
+    color: black;
+    text-align: left;
+    height: 250px;
+}
+
+.contact img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-bottom: 20px;
+    transform: translate(-20%, -40%);
+}
+.contact button {
+    background: #333;
+    color: #fff;
+align-self: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
